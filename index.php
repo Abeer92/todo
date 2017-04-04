@@ -12,7 +12,7 @@
 	<h1 id="heading1">To-do List</h1>
 	<form name="myForm">
 		<input type="text" name="myText" placeholder="please type your text"/>
-		<button id="myBtn"><?php 'Enter Your List Item'?></button>
+		<button id="myBtn"><?php echo 'Enter Your List Item' ?></button>
 		<ul class="myList">
 
 		</ul>
